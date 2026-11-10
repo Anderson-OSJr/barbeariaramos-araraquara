@@ -37,7 +37,7 @@ export const SpaceGallery: React.FC = () => {
           {/* Main Salon Station Photo (7 cols) */}
           <div className="md:col-span-7 group relative overflow-hidden rounded-xl bg-[#111c34] border border-[#d4af37]/40 min-h-[360px] lg:min-h-[420px] shadow-lg">
             <img
-              src="/src/assets/images/real/IMG_3229.jpg"
+              src="/images/real/IMG_3229.jpg"
               alt="Salão com parede azul nobre e logo iluminado da Barbearia Ramos"
               className="w-full h-full object-cover object-center group-hover:scale-103 transition-transform duration-500"
             />
@@ -55,10 +55,10 @@ export const SpaceGallery: React.FC = () => {
             </div>
           </div>
 
-          {/* Real Reception & Coffee Bar Photo (5 cols) - Replacing unwanted pool table */}
+          {/* Real Reception & Coffee Bar Photo (5 cols) */}
           <div className="md:col-span-5 group relative overflow-hidden rounded-xl bg-[#111c34] border border-[#d4af37]/40 min-h-[360px] lg:min-h-[420px] shadow-lg">
             <img
-              src="/src/assets/images/real/IMG_3221.jpg"
+              src="/images/real/IMG_3221.jpg"
               alt="Recepção e espaço café e bebidas com letreiro iluminado Ramos Barbearia"
               className="w-full h-full object-cover object-center group-hover:scale-103 transition-transform duration-500"
             />
@@ -79,7 +79,7 @@ export const SpaceGallery: React.FC = () => {
           {/* Real Waiting Sofa Card (4 cols) */}
           <div className="md:col-span-4 group relative overflow-hidden rounded-xl bg-[#111c34] border border-[#1e2f52] hover:border-[#d4af37]/40 min-h-[320px] shadow-sm transition-colors">
             <img
-              src="/src/assets/images/real/IMG_3212.jpg"
+              src="/images/real/IMG_3212.jpg"
               alt="Sofá Chesterfield de couro legítimo na área de espera da Barbearia Ramos"
               className="w-full h-full object-cover object-center group-hover:scale-103 transition-transform duration-500"
             />
@@ -100,7 +100,7 @@ export const SpaceGallery: React.FC = () => {
           {/* Real Scissor Cut Card (4 cols) */}
           <div className="md:col-span-4 group relative overflow-hidden rounded-xl bg-[#111c34] border border-[#1e2f52] hover:border-[#d4af37]/40 min-h-[320px] shadow-sm transition-colors">
             <img
-              src="/src/assets/images/real/IMG_3207.jpg"
+              src="/images/real/IMG_3207.jpg"
               alt="Corte em tesoura de precisão em cliente na Barbearia Ramos"
               className="w-full h-full object-cover object-center group-hover:scale-103 transition-transform duration-500"
             />
@@ -121,7 +121,7 @@ export const SpaceGallery: React.FC = () => {
           {/* Real Facade Card (4 cols) */}
           <div className="md:col-span-4 group relative overflow-hidden rounded-xl bg-[#111c34] border border-[#1e2f52] hover:border-[#d4af37]/40 min-h-[320px] shadow-sm transition-colors">
             <img
-              src="/src/assets/images/real/IMG_3215.jpg"
+              src="/images/real/IMG_3215.jpg"
               alt="Fachada moderna da Barbearia Ramos na Vila Harmonia em Araraquara"
               className="w-full h-full object-cover object-center group-hover:scale-103 transition-transform duration-500"
             />

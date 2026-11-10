@@ -12,7 +12,7 @@ export const BUSINESS_INFO = {
   whatsappUrl: 'https://wa.me/5516996401178',
   instagram: 'barbeariaramos.araraquara',
   instagramUrl: 'https://www.instagram.com/barbeariaramos.araraquara/',
-  logoUrl: '/src/assets/images/real/logo_oficial.png',
+  logoUrl: '/images/real/logo_oficial.png',
   mapsEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3701.325375498877!2d-48.17240362378942!3d-21.787037780059345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f3e580e07175%3A0xc316cf5a133d1b72!2sAv.%20Queiroz%20Filho%2C%201180%20-%20Vila%20Harmonia%2C%20Araraquara%20-%20SP%2C%2014802-610!5e0!3m2!1spt-BR!2sbr!4v1710000000000!5m2!1spt-BR!2sbr',
   hours: [
     { days: 'Segunda a Quinta-feira', time: '09h00 às 20h00' },

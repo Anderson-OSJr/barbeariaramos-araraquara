@@ -90,7 +90,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-[#d4af37]/40 shadow-2xl bg-[#111c34]">
               <img
-                src="/src/assets/images/real/IMG_3229.jpg"
+                src="/images/real/IMG_3229.jpg"
                 alt="Foto real do salão com parede azul e logo iluminado da Barbearia Ramos Araraquara"
                 className="w-full h-[450px] sm:h-[490px] object-cover object-center"
               />
