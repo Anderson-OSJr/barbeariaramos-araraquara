@@ -1,0 +1,6 @@
+{
+  "name": "Barbearia Ramos | Experiência Premium Araraquara",
+  "description": "Barbearia de alto padrão em Araraquara (Vila Harmonia). Cortes autorais com visagismo, barboterapia tradicional com toalha quente e lounge exclusivo para cavalheiros.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

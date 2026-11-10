@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: #0b1325;
+    color: #f1f5f9;
+  }
+
+  body {
+    background-color: #0b1325;
+    color: #f1f5f9;
+    overflow-x: hidden;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-sans-main {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Barbearia Ramos Brand Blue & Subtle Gold Accents */
+.blue-gradient-text {
+  background: linear-gradient(135deg, #93c5fd 0%, #3b82f6 50%, #1e40af 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Darkened, high-ticket executive royal blue */
+.btn-premium-blue {
+  background: linear-gradient(135deg, #123e75 0%, #0c2b53 100%);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(12, 43, 83, 0.35);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-premium-blue:hover {
+  background: linear-gradient(135deg, #174d91 0%, #0f3566 100%);
+  border-color: rgba(212, 175, 55, 0.75);
+  box-shadow: 0 4px 14px rgba(15, 53, 102, 0.5);
+}
+
+.btn-premium-blue:active {
+  background: #0c2b53;
+  transform: scale(0.98);
+}
+
+.gold-subtle-text {
+  color: #dfb76c;
+}
+
+.gold-gradient-subtle {
+  background: linear-gradient(135deg, #f3d79b 0%, #d4af37 60%, #b89127 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtle-gold-border {
+  border-color: rgba(212, 175, 55, 0.25);
+}
+
+.subtle-gold-border:hover {
+  border-color: rgba(212, 175, 55, 0.55);
+}
+
+/* Custom scrollbar in dark navy/gold tone */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #080d1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2f52;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2d4575;
+}
+
+
